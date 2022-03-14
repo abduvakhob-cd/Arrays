@@ -156,7 +156,80 @@
 // const jonas = [firstName, `jonas`, `scate`, 2037 - 1991, ` teacher`, friends];
 // console.log(jonas);
 
-const calcAge = function (birthYeah) {
-  return 2037 - birthYeah;
+// const calcAge = function (birthYeah) {
+//   return 2037 - birthYeah;
+// };
+// const years = [1990, 1967, 2002];
+
+// const friends = [`Micheal`, `Steven`, `Peter`];
+// const newLenth = friends.push(`Jay`);
+// console.log(friends);
+// console.log(newLenth);
+// friends.unshift(`John`);
+// console.log(friends);
+
+// const jonsArray = [
+//   `Jonas`,
+//   `Sara`,
+//   2037 - 1991,
+//   [`Michael`, `Peter`, `Steven`],
+// ];
+
+// const jonas = {
+//   firstName: `Jonas`,
+//   lastName: `Sara`,
+//   age: 2037 - 1991,
+//   job: `teacher`,
+//   friends: [`Michael`, `Peter`, `Steven`],
+// };
+
+// const jonas = {
+//   firstName: `Jonas`,
+//   lastName: `Sara`,
+//   age: 2037 - 1991,
+//   job: `teacher`,
+//   friends: [`Michael`, `Peter`, `Steven`],
+// };
+
+// console.log(jonas);
+
+// console.log(jonas.lastName);
+// console.log(jonas[`age`]);
+// const inter =
+//   prompt(`What do you want to know about Jonas ?  Choose between firstName, lastName,
+// age, job, and friends`);
+// console.log(jonas[inter]);
+
+// if (jonas[inter]) {
+//   console.log(jonas[inter]);
+// } else {
+//   console.log(`Wrong request, Choose between firstName, lastName,
+//   age, job, and friends`);
+// }
+
+// jonas.location = `uzbekistan`;
+// jonas[`twitter`] = `@jonasas`;
+// console.log(jonas);
+
+const jonasfriends = {
+  howmanyfriends: `he has 3 friends`,
+  whobestfriend: `Michael`,
 };
-const years = [1990, 1967, 2002];
+console.log(jonasfriends);
+const inter = prompt(`how many friends does jonas have ? `);
+console.log(jonasfriends[inter]);
+
+const jonas = {
+  firstName: `Jonas`,
+  lastName: `Sara`,
+  birtYeah: 1991,
+  job: `teacher`,
+  friends: [`Michael`, `Peter`, `Steven`],
+  hasDriverLicense: true,
+
+  calcAge: function (birthYeah) {
+    return 2037 - birthYeah;
+  },
+};
+
+console.log(jonas.calcAge(1991));
