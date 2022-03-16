@@ -7,6 +7,8 @@ console.log(`Lifting weight repetition 6`);
 console.log(`Lifting weight repetition 7`);
 console.log(`Lifting weight repetition 8`);
 console.log(`Lifting weight repetition 9`);
+console.log(`Lifting weight repetition 9`);
+console.log(`Lifting weight repetition 9`);
 
 for (let rep = 11; rep <= 13; rep++) {
   console.log(`Lifting weight repetition ${rep}`);
